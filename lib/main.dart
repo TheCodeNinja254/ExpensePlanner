@@ -28,6 +28,8 @@ class MyHomePage extends StatelessWidget {
         amount: 1600,
         date: DateTime.now())
   ];
+
+  // Doing the heavy lifting by initializing a variable that will have a value later.
   late String amountInput;
 
   // in a stateless widget we can also use a Controller as below.
